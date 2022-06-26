@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anek+Latin:wght@500&family=Smooch&display=swap" rel="stylesheet">
+<style>
+
+body {
+background-color: #48cae4;
+font-family: 'Anek Latin', sans-serif;
+}
+
+h1{
+color: black;
+background-color:#00a896;
+width: 50%;
+margin-left:8em;
+border: 2px solid indianred;
+font-size:50px;
+}
+
+li{
+font-size:x-large;
+}
+input{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+input[type=text]:focus {
+  border: 3px solid #555;
+}
+
+</style>
+<title>Insert title here</title>
+</head>
+<body>
+<form action = "./ViewTable" method = "post">
+	 <h1>List of Info. Tables</h1>
+	 <ol>
+  <li>category</li>
+  <li>cust_mobileno</li>
+  <li>customer</li>
+  <li>dependent</li>
+  <li>inventory</li>
+  <li>o_detailsrel</li>
+  <li>orderst</li>
+  <li>product</li>
+  <li>staff</li>
+  <li>supp_contacts</li>
+  <li>supplier</li>
+  <li>supply_rel</li>
+  
+	</ol>
+	 <input type="text" name="table_name" placeholder="Enter Table Name..."/>
+	 <br/><br/><br/>
+	  <input type="submit"/>
+	 
+</form>
+
+
+</body>
+</html>

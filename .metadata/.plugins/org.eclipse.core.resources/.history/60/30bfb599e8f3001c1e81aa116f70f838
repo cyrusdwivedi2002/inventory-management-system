@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+
+<style>
+body {
+background-color: powderblue;
+}
+h1{
+color: #faedcd;
+}
+</style>
+<title>Inventory management System</title>
+</head>
+<body>
+	<h1>Welcome to Inventory Management Database</h1>
+	<p> Click here to View the Database </p>
+	<button type="button" form="form1"   onclick="window.location.href = 'view.html';" style = 'background-color:white'>View</button>
+	<br/><br/>
+	<p> Click here to Insert Data: </p>
+	<button type="button" form="form1"   onclick="window.location.href = 'insert.html';">Insert</button>
+	<br/><br/>
+	<p> Delete Data </p>
+	<button type="button" form="form1"   onclick="window.location.href = 'delete.html';">Delete</button>
+	<br/><br/>
+	<p> Update Data </p>
+	<button type="button" form="form1"   onclick="window.location.href = 'update.html';">Update</button>
+	<br/><br/>
+	<p> Export </p>
+	<button type="button" form="form1"   onclick="window.location.href = 'export.html';">Export</button>
+	<br/><br/>
+	<p> Import </p>
+	<button type="button" form="form1"   onclick="window.location.href = 'import.html';">Import</button>
+	<br/><br/>
+	<p> Import using SQL Dump</p>
+	<button type="button" form="form1"   onclick="window.location.href = 'importdump.html';">Import(SQL Dump)</button>
+	<br/><br/>
+	<p> Export to</p>
+	<button type="button" form="form1"   onclick="window.location.href = 'export.html';">Export_to</button>
+	<br/><br/>
+	
+	</body>
+</html>

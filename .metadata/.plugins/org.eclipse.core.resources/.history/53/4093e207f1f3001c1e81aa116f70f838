@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anek+Latin:wght@500&family=Smooch&display=swap" rel="stylesheet">
+
+<style>
+body {
+background-color: #48cae4;
+font-family: 'Anek Latin', sans-serif;
+}
+
+h1{
+color: black;
+background-color:#00a896;
+width: 50%;
+margin-left:8em;
+border: 2px solid indianred;
+font-size:50px;
+}
+</style>
+
+<title>Insert title here</title>
+</head>
+<body>
+	
+  <h1>Select table to insert:</h1>
+  <br/> <br/>
+  
+<button type="button" form="form1"    onclick="window.location.href = 'index.html';">Inventory</button>
+<br/> <br/>
+<button type="button" form="form1"   onclick="window.location.href = 'index2.html';">Category</button>
+
+<br/> <br/>
+<button type="button" form="form1"   onclick="window.location.href = 'index3.html';">Cust_mobileno</button>
+<br/> <br/>
+<button type="button" form="form1"   onclick="window.location.href = 'index4.html';">Customer</button>
+<br/> <br/>
+<button type="button" form="form1"   onclick="window.location.href = 'index5.html';">o_detailsrel</button>
+<br/> <br/>
+<button type="button" form="form1"   onclick="window.location.href = 'index6.html';">order_details</button>
+<br/> <br/>
+<button type="button" form="form1"   onclick="window.location.href = 'index7.html';">orderst</button>
+<br/> <br/>
+<button type="button" form="form1"   onclick="window.location.href = 'index9.html';">Shipment</button>
+<br/> <br/>
+
+<button type="button" form="form1"   onclick="window.location.href = 'index8.html';">Product</button>
+<br/> <br/>
+<button type="button" form="form1"   onclick="window.location.href = 'index10.html';">Staff</button>
+<br/> <br/>
+<button type="button" form="form1"   onclick="window.location.href = 'index11.html';">supp_contacts</button><br/> <br/>
+<br/> <br/>
+<button type="button" form="form1"   onclick="window.location.href = 'index12.html';">supplyrel</button><br/> <br/>
+<br/> <br/>
+<button type="button" form="form1"   onclick="window.location.href = 'index14.html';">supplier</button><br/> <br/>
+<br/> <br/>
+<button type="button" form="form1"   onclick="window.location.href = 'index15.html';">Dependent</button><br/> <br/>
+
+<br/> <br/>
+<button type="button" form="form1"   onclick="window.location.href = 'index13.html';">Warranty</button><br/> <br/>
+
+<br/> <br/>
+
+</body>
+</html>

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anek+Latin:wght@500&family=Smooch&display=swap" rel="stylesheet">
+
+<style>
+body {
+background-color: #48cae4;
+font-family: 'Anek Latin', sans-serif;
+}
+h1{
+color: black;
+background-color:#00a896;
+width: 50%;
+margin-left:8em;
+border: 2px solid indianred;
+font-size:50px;
+}
+p{
+font-size:x-large;
+}
+button{
+background-color: #555555;
+color:white;
+font-size: 24px;
+border-radius: 12px;
+border:2px solid red;
+}
+button:hover{
+cursor:pointer;
+content:'\00bb';
+background-color:#ef476f;
+box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+transition: all 0.4s;
+}
+</style>
+<title>Inventory management System</title>
+</head>
+<body>
+	<h1>Welcome to Inventory Management Database</h1>
+	<p> Click here to View the Database: </p>
+	<button type="button" form="form1"   onclick="window.location.href = 'view.html';">View</button>
+	<br/><br/>
+	<p> Click here to Insert Data: </p>
+	<button type="button" form="form1"   onclick="window.location.href = 'insert.html';">Insert</button>
+	<br/><br/>
+	<p> Delete Data </p>
+	<button type="button" form="form1"   onclick="window.location.href = 'delete.html';">Delete</button>
+	<br/><br/>
+	<p> Update Data </p>
+	<button type="button" form="form1"   onclick="window.location.href = 'update.html';">Update</button>
+	<br/><br/>
+	<p> Export </p>
+	<button type="button" form="form1"   onclick="window.location.href = 'export.html';">Export</button>
+	<br/><br/>
+	<p> Import </p>
+	<button type="button" form="form1"   onclick="window.location.href = 'import.html';">Import</button>
+	<br/><br/>
+	<p> Import using SQL Dump</p>
+	<button type="button" form="form1"   onclick="window.location.href = 'importdump.html';">Import(SQL Dump)</button>
+	<br/><br/>
+	<p> Export to</p>
+	<button type="button" form="form1"   onclick="window.location.href = 'export.html';">Export_to</button>
+	<br/><br/>
+	
+	</body>
+</html>

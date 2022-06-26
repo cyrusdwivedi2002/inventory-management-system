@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+
+
+<title>Insert title here</title>
+</head>
+<body>
+<form action = "./ImportDumpTable" method = "post">
+	 <h1>Table Name</h1>
+	 <ol>
+  <li>category</li>
+  <li>cust_mobileno</li>
+  <li>customer</li>
+  <li>dependent</li>
+  <li>inventory</li>
+  <li>o_detailsrel</li>
+  <li>orderst</li>
+  <li>product</li>
+  <li>staff</li>
+  <li>supp_contacts</li>
+  <li>supplier</li>
+  <li>supply_rel</li>
+	</ol>
+	
+	<p>Enter the table in which you want to import data: </p>
+	  <br/><br/>
+	 <input type="text" name="table_name" placeholder="Enter Table Name..."/>
+	 <br/><br/>
+	<!--  <p>file_path:</p> 
+     <input type="text" name="file_path"/>
+     <br/><br/><br/> -->
+	  <input id="button" type="submit"/>
+	 
+</form>
+
+
+</body>
+</html>

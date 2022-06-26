@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Insert Data</title>
+</head>
+<body>
+    <!-- Give Servlet reference to the form as an instances 
+    GET and POST services can be according to the problem statement-->
+    <form action="./Insert3Data" method="post">
+        <p>Cust_id:</p> 
+        <!-- Create an element with mandatory name attribute,
+        so that data can be transfer to the servlet using getParameter() -->
+        <input type="text" name="cust_id"/>
+        <br/>
+        <p>cFname:</p> 
+        <input type="text" name="cFname"/>
+        <br/><br/><br/>
+        <p>cMname:</p> 
+        <input type="text" name="cMname"/>
+        <br/><br/><br/>
+        <p>cLname:</p> 
+        <input type="text" name="cLname"/>
+        <br/><br/><br/>
+        <p>address:</p> 
+        <input type="text" name="address"/>
+        <br/><br/><br/>
+        <p>Staff_id:</p> 
+        <input type="text" name="Staff_id"/>
+        <br/><br/><br/>
+        <input type="submit"/>
+    </form>
+</body>
+</html>
